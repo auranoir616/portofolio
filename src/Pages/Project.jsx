@@ -13,7 +13,7 @@ const Project = () => {
     id='Project'
     >
     <div className="w-full my-5" >
-      <p className="text-white  text-5xl text-left" >My Project</p>
+      <p className="text-white  text-5xl text-left max-md:text-center" >My Project</p>
       <hr className='w-full h-2 ' style={{ color: 'white', borderWidth: '3px' }} />
 
     </div>

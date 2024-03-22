@@ -6,7 +6,7 @@ const Bio =(props)=>{
         window.location.href = "mailto:fitria.dharmawan13@gmail.com?subject=You are Hired!!!&body=";
     }
     return(
-        <div className={`${m} flex flex-col justify-center items-start p-10` } >
+        <div className={`${m} flex flex-col justify-center items-center p-10` } >
             <p className="text-white text-5xl font-medium mb-2" >My Bio</p>
             <hr className="w-full mb-2 h-2" style={{color:'white',borderWidth: '3px' }}/>
             <p className="text-white font-medium text-left text-md max-md:backdrop-opacity-10  max-md:backdrop-invert  max-md:bg-black/60" >
@@ -32,7 +32,7 @@ const Bio =(props)=>{
                     <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Git & GitHub</button>
                 
             </div>
-            <div className="mt-5 flex flex-row justify-start items-center">
+            <div className="mt-5 flex 2xl:flex-row max-lg:flex-col justify-start items-center  w-fit ">
         <Button link='#' onClick={handleEmail}>
             Hire Me
         </Button>
@@ -42,9 +42,7 @@ const Bio =(props)=>{
             </Button>
             <Button link='https://wa.me/6289612571617?text=Halo%20febri...'>
             Chat Me 
-            </Button>
-
-           
+            </Button>         
             </div>
         </div>
     )

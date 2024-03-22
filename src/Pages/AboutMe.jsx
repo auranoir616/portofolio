@@ -9,7 +9,7 @@ const AboutMe = () => {
  >
         <div className='w-full h-screen max-2xl:h-max flex lg:flex-row max-md:flex-col justify-center items-between lg:p-24 md:p-2 mt-10'>
         <div className='w-1/4  max-md:w-full h-full max-md:h-fit rounded-md max-md:flex max-md:flex-col max-md:justify-center max-md:items-center flex flex-col justify-start items-center ' >
-        <img src={foto1} className='h-3/4 w-full rounded-lg'/>
+        <img src={foto1} className='h-3/5 w-3/4 rounded-lg'/>
         <p className="text-white text-2xl font-bold mb-2">Febrianto Fitra Dharmawan</p>
         </div>
         <div className='w-1/2 max-2xl:w-full h-full max-2xl:h-max'>

@@ -41,7 +41,7 @@ const Experience = () => {
    style={{ backgroundImage: `url(${bgPlane})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
 
     <div className='2xl:h-screen max-2xl:w-full 2xl:w-1/2 max-2xl:h-1/2'>
-      <div className='text-5xl underline underline-offset-4 text-white'>
+      <div className='text-5xl text-center underline underline-offset-4 text-white'>
         Certificate
       </div>
       <div className='flex flex-wrap xl:flex-row max-2xl:flex-col justify-center items-center p-2 max-2xl:w-full 2xl:w-fit max-2xl:h-max'>
@@ -51,7 +51,7 @@ const Experience = () => {
       </div>
     </div>
     <div className='2xl:h-screen max-2xl:w-full 2xl:w-1/2 max-2xl:h-1/2'>
-      <div className='text-5xl underline underline-offset-4 text-white'>
+      <div className='text-5xl text-center underline underline-offset-4 text-white'>
       Work Experience
       </div>
     <div className=' w-full h-max p-2 backdrop-opacity-10 backdrop-invert bg-black/60' id='Experience'>
