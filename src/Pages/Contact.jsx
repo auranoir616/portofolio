@@ -3,6 +3,7 @@ import EmailForm from '../Components/FormEmail';
 import IconsContact from '../Components/IconsContact';
 
 const Contact = () => {
+  const currentYear = new Date().getFullYear();
     return (
       <div className=" h-screen w-full max-lg:h-fit" id='Contact'>
         <div className="w-full h-4/5 " style={{ backgroundImage: `url(${coding})`, backgroundSize: 'contain', backgroundRepeat:'no-repeat'}}>
@@ -31,7 +32,7 @@ const Contact = () => {
           </div>
           <div className="w-full h-2/5 border-t-2 border-gray-50 ">
           <p className='text-white text-center mt-3'>
-        Copyright ©2024 All rights reserved | Created using React JS
+        Copyright ©{currentYear} All rights reserved | Created using React JS
           </p>
           </div>
         </div>

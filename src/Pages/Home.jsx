@@ -17,9 +17,9 @@ const Home =()=>{
     return () => clearInterval(timer); // clean up on component unmount
     },[])
     return( 
-<div className="h-screen  w-full flex 2xl:flex-row max-2xl:flex-col justify-center items-center" id='Home'>
-          <div className='w-1/2 h-full max-2xl:h-1/2 ' 
-           style={{backgroundImage:`url(${bgHome})`, backgroundSize:'contain', backgroundRepeat:'no-repeat', backgroundPosition: 'left'}}>
+<div className="h-screen w-full flex 2xl:flex-row max-2xl:flex-col justify-center items-center " id='Home'>
+          <div className='w-1/2 h-full max-lg:h-1/2 max-lg:w-full max-lg:mt-10' 
+           style={{backgroundImage:`url(${bgHome})`, backgroundSize:'contain', backgroundRepeat:'no-repeat', backgroundPosition: 'center'}}>
           </div>
           <div className='w-1/2 max-2xl:h-1/2 max-2xl:w-full max-2xl:bg-black'>
         <p className='text-white text-6xl font-medium mb-24' >

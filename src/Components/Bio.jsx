@@ -18,18 +18,20 @@ const Bio =(props)=>{
             <hr className="w-full mb-2 h-2" style={{color:'white',borderWidth: '3px' }}/>
 
             <div className="text-white font-medium text-left text-md">
-                <p>Skills:</p>
+                <p className="font-bold">Skills:</p>
                 <br />
                     <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">HTML & Css</button>
                     <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Javascript</button>
                     <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">PHP</button>
+                    <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Python</button>
+                    <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Golang</button>
                     <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Mysql</button>
                     <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Laravel</button>
                     <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">React JS</button>
                     <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Node JS</button>
-                    <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Ms. Office</button>
-                    <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Python</button>
+                    <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Next JS</button>
                     <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Git & GitHub</button>
+                    <button disabled className="bg-slate-700 h-10 w-fit p-2 rounded-md mx-2 my-1">Ms. Office</button>
                 
             </div>
             <div className="mt-5 flex 2xl:flex-row max-lg:flex-col justify-start items-center  w-fit ">

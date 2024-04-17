@@ -11,7 +11,7 @@ function ModalImage({image, desc}) {
 
   return (
     <>
-      <img src={image} alt="" className='h-1/4 w-2/5 m-1 max-md:h-full  max-md:w-full' onClick={handleShow} />
+      <img src={image} alt="" className='h-1/4 w-2/5 m-1 max-md:h-full  max-md:w-full cursor-pointer' onClick={handleShow} />
       <Modal show={show} onHide={handleClose}  size="lg" centered >
         {/* <Modal.Header >
           <Modal.Title>My Freelance Services</Modal.Title>
